@@ -1,15 +1,30 @@
-# Projects
+# Qing-Qiu
 
-| 项目 | 项目主要内容 | 技术栈 | 代码行数 |
+展示两个内容更完整、迭代更集中的项目：一个音乐互动微信小程序，一个电影推荐与资料探索系统。
+
+## Featured Projects
+
+<!-- PROJECT_SHOWCASE_START -->
+| Project | Main Content | Tech Stack | Lines |
 | --- | --- | --- | --- |
-| [TuneLab](https://github.com/Qing-Qiu/TuneLab) | 微信小程序音乐实验项目，包含音乐播放、一起听房间、地点歌曲笔记、旋律复现挑战、摇一摇惊喜与舒尔特方格训练 | JavaScript, WeChat Mini Program, WeChat Cloud Functions | 9,095 |
-| [MovieRec](https://github.com/Qing-Qiu/MovieRec) | 电影推荐与资料探索系统，包含电影搜索、个性化推荐、电影/影人详情、评论互动、图表解读、AI 电影助手与音乐代理 | Vue, Java, Python, JavaScript, CSS, HTML | 13,210 |
-| [MovieSafari](https://github.com/Qing-Qiu/MovieSafari) | 基于 Vue 的豆瓣风格电影浏览项目 | Vue, JavaScript, HTML | 2,652 |
-| [Raspberry4WDCar](https://github.com/Qing-Qiu/Raspberry4WDCar) | 工程实训用树莓派 4WD 小车控制项目 | Python | 751 |
-| [DatabaseSystem](https://github.com/Qing-Qiu/DatabaseSystem) | 数据库系统课程设计，包含 Java 应用逻辑与数据库脚本 | Java, PLpgSQL, CSS | 1,846 |
-| [HealthCode](https://github.com/Qing-Qiu/HealthCode) | Java Web 课程设计，实现健康码风格的管理系统 | Java | 1,051 |
-| [WebFrontEndAppBasedOnBootstrap](https://github.com/Qing-Qiu/WebFrontEndAppBasedOnBootstrap) | 基于 Bootstrap 的 Web 前端课程项目 | HTML | 3,345 |
-| [BigInteger-for-Data-Structure](https://github.com/Qing-Qiu/BigInteger-for-Data-Structure) | 数据结构课程设计，实现大整数运算 | C++, CMake | 761 |
-| [HotelRoomManagementSystem](https://github.com/Qing-Qiu/HotelRoomManagementSystem) | C++ 课程设计，实现酒店客房管理系统 | C++ | 1,746 |
-| [Scrapy-spiders-for-People-paper](https://github.com/Qing-Qiu/Scrapy-spiders-for-People-paper) | 基于 Scrapy 的人民日报信息爬虫，数据写入 MySQL | Python | 352 |
-| [OptimizationMethods](https://github.com/Qing-Qiu/OptimizationMethods) | 最优化方法课程程序作业 | Python | 206 |
+| [TuneLab](https://github.com/Qing-Qiu/TuneLab) | WeChat Mini Program for music playback, shared listening rooms, location-based song notes, melody challenges, surprise interactions, and Schulte grid training | JavaScript, WeChat Mini Program, WeChat Cloud Functions | 17,820 |
+| [MovieRec](https://github.com/Qing-Qiu/MovieRec) | Movie recommendation and exploration system with search, personalized recommendations, movie/person details, comments, chart analysis, AI assistant, and music proxy | Vue, Java, Python, JavaScript, CSS, HTML | 13,210 |
+<!-- PROJECT_SHOWCASE_END -->
+
+## Language Lines
+
+<!-- LANGUAGE_LINES_START -->
+| Project | Language | Lines |
+| --- | --- | --- |
+| TuneLab | JavaScript | 9,095 |
+| TuneLab | WXSS | 7,231 |
+| TuneLab | WXML | 1,494 |
+| MovieRec | Vue | 9,269 |
+| MovieRec | Java | 2,960 |
+| MovieRec | Python | 651 |
+| MovieRec | JavaScript | 166 |
+| MovieRec | CSS | 147 |
+| MovieRec | HTML | 17 |
+<!-- LANGUAGE_LINES_END -->
+
+> 统计口径：自动统计 Git 跟踪的源码/界面文件，排除依赖、构建产物、锁文件和通用配置文件。

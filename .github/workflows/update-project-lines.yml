@@ -1,0 +1,42 @@
+name: Update project line stats
+
+on:
+  repository_dispatch:
+    types:
+      - project-lines-update
+  workflow_dispatch:
+  schedule:
+    - cron: '17 20 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-project-line-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Update README project line stats
+        shell: pwsh
+        run: ./scripts/update-project-lines.ps1
+
+      - name: Commit updated README
+        shell: bash
+        run: |
+          if git diff --quiet README.md; then
+            echo "README is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update project line stats"
+          git push
